@@ -79,7 +79,7 @@
         })
 
         var eosparkurl = encodeURIComponent("https://api.eospark.com/api?module=account&action=get_account_related_trx_info&apikey=a9564ebc3289b7a14551baf8ad5ec60a&account="+accountName+"&page=1&size=10&symbol=EOS&code=eosio.token");
-        var url = "http://eth.fm/site/proxy?url=" + eosparkurl;
+        var url = "https://eth.fm/site/proxy?url=" + eosparkurl;
 
         $.ajax({
            type: 'GET',
